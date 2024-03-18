@@ -26,6 +26,12 @@
             <trans-unit id="tl_testimonials.department.1">
                 <source>Here you can enter a department.</source>
             </trans-unit>
+            <trans-unit id="tl_testimonials.testimonial_heading.0">
+                <source>Heading Testimonial</source>
+            </trans-unit>
+            <trans-unit id="tl_testimonials.testimonial_heading.1">
+                <source>Enter an optional heading for the testimonial.</source>
+            </trans-unit>
             <trans-unit id="tl_testimonials.testimonial.0">
                 <source>Testimonial</source>
             </trans-unit>

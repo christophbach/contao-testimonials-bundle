@@ -72,7 +72,7 @@ $GLOBALS['TL_DCA']['tl_testimonials'] = [
 
     'palettes' => [
         '__selector__' => ['addImage'],
-        'default' => '{testimonial_legend},identifier,name,company,department,testimonial,rating,categories;{image_legend},addImage;{publish_legend},published',
+        'default' => '{testimonial_legend},identifier,name,company,department,testimonial_heading,testimonial,rating,categories;{image_legend},addImage;{publish_legend},published',
     ],
 
     'subpalettes' => [
@@ -112,6 +112,12 @@ $GLOBALS['TL_DCA']['tl_testimonials'] = [
             'sql' => "varchar(255) NOT NULL default ''",
         ],
         'department' => [
+            'exclude' => true,
+            'inputType' => 'text',
+            'eval' => ['maxlength' => 255, 'tl_class' => 'w50'],
+            'sql' => "varchar(255) NOT NULL default ''",
+        ],
+        'testimonial_heading' => [
             'exclude' => true,
             'inputType' => 'text',
             'eval' => ['maxlength' => 255, 'tl_class' => 'w50'],

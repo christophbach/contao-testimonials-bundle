@@ -8,6 +8,7 @@
             <?php endif; ?>
 
             <div class="testimonial-text">
+                <div class="testimonial-heading"><?= $item['testimonial_heading'] ?></div>
                 <?= $item['testimonial'] ?>
             </div>
 

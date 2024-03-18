@@ -34,6 +34,14 @@
                 <source>Here you can enter a department.</source>
                 <target>Bitte geben Sie eine Abteilung ein.</target>
             </trans-unit>
+            <trans-unit id="tl_testimonials.testimonial_heading.0">
+                <source>Überschrift Testimonial</source>
+                <target>Überschrift Empfehlungsschreiben</target>
+            </trans-unit>
+            <trans-unit id="tl_testimonials.testimonial_heading.1">
+                <source>Enter an optional heading for the testimonial.</source>
+                <target>Geben Sie eine optionale Überschrift für das Empfehlungsschreiben ein.</target>
+            </trans-unit>
             <trans-unit id="tl_testimonials.testimonial.0">
                 <source>Testimonial</source>
                 <target>Empfehlungsschreiben</target>

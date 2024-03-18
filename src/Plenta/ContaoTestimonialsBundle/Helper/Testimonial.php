@@ -38,7 +38,7 @@ class Testimonial
     {
         $testimonial = $this->connection
             ->createQueryBuilder()
-            ->select('name, company, department, testimonial, rating, addImage, singleSRC')
+            ->select('name, company, department, testimonial_heading, testimonial, rating, addImage, singleSRC')
             ->from('tl_testimonials')
             ->where('id=:id')
             ->andWhere('published=:published')
@@ -59,7 +59,7 @@ class Testimonial
     {
         $testimonials = $this->connection
             ->createQueryBuilder()
-            ->select('name, company, department, testimonial, rating, addImage, singleSRC')
+            ->select('name, company, department, testimonial_heading, testimonial, rating, addImage, singleSRC')
             ->from('tl_testimonials')
             ->where('pid=:pid')
             ->andWhere('published=:published')

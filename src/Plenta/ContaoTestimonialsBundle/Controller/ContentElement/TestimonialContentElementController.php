@@ -47,6 +47,7 @@ class TestimonialContentElementController extends AbstractContentElementControll
             $template->name = $testimonial[0]['name'];
             $template->company = $testimonial[0]['company'];
             $template->department = $testimonial[0]['department'];
+            $template->testimonial_heading = $testimonial[0]['testimonial_heading'];
             $template->testimonial = $testimonial[0]['testimonial'];
             $template->rating = $this->testimonial->getRating((int) $testimonial[0]['rating']);
         }
